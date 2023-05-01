@@ -1,0 +1,47 @@
+body {
+    background-color: #edc9af;
+    color: #965a3e;
+}
+
+input[type=button] {
+background-color: #965a3e;
+color: white;
+padding: 5px 5px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=number] {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    width: 20%;
+    border: 1px solid #fadfad;  
+}
+
+textarea {
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 400px;
+    min-height: 300px;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    width: 20%;
+    border: 1px solid #fadfad; 
+}
+
+input[type=text] {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    width: 20%;
+    border: 1px solid #fadfad;  
+}
+
+
+h3 {
+    color: #965a3e;
+}

@@ -1,0 +1,78 @@
+@objects
+	body body
+	meni #meni
+	studenti #studenti
+	grupe #grupe
+	grupelnk #grupelnk
+	vjezbelnk #vjezbelnk
+
+= Width section =
+	meni:
+		width 98 to 100 % of body/width
+	studenti:
+		width 98 to 100 % of body/width
+	grupe:
+		width 98 to 100 % of body/width
+
+= Height section =
+
+= Inside section =
+	grupelnk:
+		inside meni
+	vjezbelnk:
+		inside meni
+
+= Left of section =
+	grupelnk:
+		left-of vjezbelnk
+
+= Right of section =
+	vjezbelnk:
+		right-of grupelnk
+
+= Above section =
+	meni:
+		above studenti
+	meni:
+		above grupe
+	grupelnk:
+		above studenti
+	grupelnk:
+		above grupe
+	vjezbelnk:
+		above studenti
+	vjezbelnk:
+		above grupe
+	grupe:
+		above studenti
+
+= Below section =
+	studenti:
+		below meni
+	grupe:
+		below meni
+	studenti:
+		below grupelnk
+	grupe:
+		below grupelnk
+	studenti:
+		below vjezbelnk
+	grupe:
+		below vjezbelnk
+	studenti:
+		below grupe
+= Visible section =
+	meni:
+		visible
+	studenti:
+		visible
+	grupe:
+		visible
+	grupelnk:
+		visible
+	vjezbelnk:
+		visible
+
+= Inside partly section =
+	meni:
+		inside partly body ~0px left, ~0px top

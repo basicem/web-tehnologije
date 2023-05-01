@@ -1,0 +1,198 @@
+body {
+    background-color: #edc9af;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f4decb;
+
+  }
+li a {
+    display: block;
+    color: #836953;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+li {
+    float: left;
+} 
+.glavni {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 0.2rem;
+    text-align: center;
+    padding-top: 25px;
+    grid-template-areas: 
+        "studenti grupe"
+}
+#studenti {
+    background-color: #a57164;
+    color: #f4decb;
+    grid-area: studenti;
+}
+#grupe {
+    background-color: #a57164;
+    color: #f4decb;
+    grid-area: grupe;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #FAEACB;
+    text-align: center;
+  }
+
+.grid-studenti {
+    display: grid;
+    padding: 20px;
+    grid-gap: 0.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+}
+
+.grid-item {
+    background-color: #836953;
+}
+
+/* drugi zad */
+
+#odabirVjezbe {
+    padding: 5px;
+    flex: 1;
+}
+.button {
+    background-color: #a57164;
+    border: 2px solid;
+    color: #ffddca;
+    margin: 0;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+  }
+
+.zadatak {
+    background-color: #987654;
+    border: none;
+    color: #ffddca;
+    border: 2px solid;
+    padding: 15px 15px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.graf  {
+    text-align: center;
+    border: 2px solid #704241;
+    flex-basis: 48%;
+}
+
+
+.graf .commit {
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+    background: #a57164;
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    padding-top: 10px;
+}
+
+.content {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    height: 100%;
+}
+
+/* zadatak 3 */
+
+#forma1 #forma2 {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #caa48f;
+}
+
+input[type=text], select, input[type=textarea] {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 8px 0;
+    border: 1px solid #fadfad;
+    padding: 12px 20px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #965a3e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  } 
+
+
+@media screen and (max-width: 499px){
+    li {
+        float: initial;
+    }
+    .glavni {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "grupe"
+        "studenti";
+    }
+    th:nth-child(n+2) {
+        display: none;
+    }
+    td:nth-child(n+2) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .glavni {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "grupe"
+        "studenti";
+    }
+    .container {
+        flex-direction: column;
+    }
+    .graf {
+        flex-basis: 100%;
+    }
+    #odabirVjezve {
+        flex: 1;
+    }
+    .content {
+        flex: 1;
+    }
+}
+

@@ -1,0 +1,50 @@
+@objects
+    body body
+    url #url
+    agodina #agodina
+    branchevi #branchevi
+    posalji #posalji
+    form form
+
+= Width section =
+
+= Height section =
+
+= Inside section =
+    url:
+        inside form
+    agodina:
+        inside form
+    branchevi:
+        inside form
+    posalji:
+        inside form
+
+= Above section =
+	url:
+		above agodina
+	agodina:
+		above branchevi
+	branchevi:
+		above posalji
+
+= Below section =
+	agodina:
+		below url
+	branchevi:
+		below agodina
+	posalji:
+		below branchevi
+
+= Visible section =
+	url:
+		visible
+	agodina:
+		visible
+	branchevi:
+		visible
+	posalji:
+		visible
+	form:
+		visible
+    

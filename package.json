@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.13.0",
+    "sinon": "^12.0.1"
+  },
+  "name": "wt21p18422",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bbbasic@bitbucket.org/bbbasic/wt21p18422.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/bbbasic/wt21p18422/issues"
+  },
+  "homepage": "https://bitbucket.org/bbbasic/wt21p18422#readme",
+  "description": "",
+  "devDependencies": {
+    "mocha": "^9.2.0"
+  }
+}

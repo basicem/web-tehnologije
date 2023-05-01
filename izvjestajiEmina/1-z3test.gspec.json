@@ -1,0 +1,190 @@
+{
+  "testId" : "1-z3test.gspec",
+  "name" : "z3Test.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  z3Test.gspec --url http://localhost/mojRepozitorij.html --size 650x768 --htmlreport izvjestajiEmina",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: z3Test.gspec included tags: ",
+          "status" : "info",
+          "time" : 1636672315387,
+          "sections" : [ {
+            "name" : "Inside section",
+            "place" : {
+              "filePath" : "z3Test.gspec",
+              "lineNumber" : 13
+            },
+            "objects" : [ {
+              "name" : "url",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test.gspec",
+                  "lineNumber" : 15
+                },
+                "name" : "inside form",
+                "meta" : [ ],
+                "highlight" : [ "url", "form" ]
+              } ]
+            }, {
+              "name" : "agodina",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "inside form",
+                "meta" : [ ],
+                "highlight" : [ "agodina", "form" ]
+              } ]
+            }, {
+              "name" : "branchevi",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "inside form",
+                "meta" : [ ],
+                "highlight" : [ "branchevi", "form" ]
+              } ]
+            }, {
+              "name" : "posalji",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "inside form",
+                "meta" : [ ],
+                "highlight" : [ "posalji", "form" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Below section",
+            "place" : {
+              "filePath" : "z3Test.gspec",
+              "lineNumber" : 23
+            },
+            "objects" : [ {
+              "name" : "posalji",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "below branchevi",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "posalji",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "branchevi",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "34px"
+                } ],
+                "highlight" : [ "posalji", "branchevi" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Visible section",
+            "place" : {
+              "filePath" : "z3Test.gspec",
+              "lineNumber" : 26
+            },
+            "objects" : [ {
+              "name" : "url",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "visible",
+                "highlight" : [ "url" ]
+              } ]
+            }, {
+              "name" : "agodina",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "visible",
+                "highlight" : [ "agodina" ]
+              } ]
+            }, {
+              "name" : "branchevi",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "visible",
+                "highlight" : [ "branchevi" ]
+              } ]
+            }, {
+              "name" : "posalji",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test.gspec",
+                  "lineNumber" : 34
+                },
+                "name" : "visible",
+                "highlight" : [ "posalji" ]
+              } ]
+            }, {
+              "name" : "form",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "visible",
+                "highlight" : [ "form" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "form" : {
+              "area" : [ 28, 28, 582, 306 ]
+            },
+            "posalji" : {
+              "area" : [ 28, 282, 582, 44 ]
+            },
+            "agodina" : {
+              "area" : [ 28, 130, 582, 42 ]
+            },
+            "branchevi" : {
+              "area" : [ 28, 206, 582, 42 ]
+            },
+            "url" : {
+              "area" : [ 28, 54, 582, 42 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1636672313179,
+        "type" : "node"
+      } ],
+      "time" : 1636672305872,
+      "type" : "node"
+    } ]
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "testId" : "1-z3test2.gspec",
+  "name" : "z3Test2.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  z3Test2.gspec --url http://localhost/zadaci.html --size 800x768 --htmlreport izvjestajiEmina",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: z3Test2.gspec included tags: ",
+          "status" : "info",
+          "time" : 1636758182323,
+          "sections" : [ {
+            "name" : "Inside section",
+            "place" : {
+              "filePath" : "z3Test2.gspec",
+              "lineNumber" : 18
+            },
+            "objects" : [ {
+              "name" : "vjezba",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "vjezba", "forma1" ]
+              } ]
+            }, {
+              "name" : "zadatak",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "zadatak", "forma1" ]
+              } ]
+            }, {
+              "name" : "verzija",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "verzija", "forma1" ]
+              } ]
+            }, {
+              "name" : "komentar",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "komentar", "forma1" ]
+              } ]
+            }, {
+              "name" : "posalji",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "posalji", "forma1" ]
+              } ]
+            }, {
+              "name" : "error",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "inside forma2",
+                "meta" : [ ],
+                "highlight" : [ "error", "forma2" ]
+              } ]
+            }, {
+              "name" : "greska",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "inside forma2",
+                "meta" : [ ],
+                "highlight" : [ "greska", "forma2" ]
+              } ]
+            }, {
+              "name" : "dodaj",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 34
+                },
+                "name" : "inside forma2",
+                "meta" : [ ],
+                "highlight" : [ "dodaj", "forma2" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Above section",
+            "place" : {
+              "filePath" : "z3Test2.gspec",
+              "lineNumber" : 36
+            },
+            "objects" : [ {
+              "name" : "vjezba",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 38
+                },
+                "name" : "above zadatak",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "vjezba",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "zadatak",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "34px"
+                } ],
+                "highlight" : [ "vjezba", "zadatak" ]
+              } ]
+            }, {
+              "name" : "zadatak",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "above verzija",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "zadatak",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "verzija",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "34px"
+                } ],
+                "highlight" : [ "zadatak", "verzija" ]
+              } ]
+            }, {
+              "name" : "verzija",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 42
+                },
+                "name" : "above komentar",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "verzija",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "komentar",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "34px"
+                } ],
+                "highlight" : [ "verzija", "komentar" ]
+              } ]
+            }, {
+              "name" : "komentar",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 44
+                },
+                "name" : "above posalji",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "komentar",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "posalji",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "16px"
+                } ],
+                "highlight" : [ "komentar", "posalji" ]
+              } ]
+            }, {
+              "name" : "error",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 46
+                },
+                "name" : "above greska",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "error",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "greska",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "11px"
+                } ],
+                "highlight" : [ "error", "greska" ]
+              } ]
+            }, {
+              "name" : "greska",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 48
+                },
+                "name" : "above dodaj",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "greska",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "dodaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "11px"
+                } ],
+                "highlight" : [ "greska", "dodaj" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Below section",
+            "place" : {
+              "filePath" : "z3Test2.gspec",
+              "lineNumber" : 50
+            },
+            "objects" : [ {
+              "name" : "zadatak",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "below vjezba",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "zadatak",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "vjezba",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "34px"
+                } ],
+                "highlight" : [ "zadatak", "vjezba" ]
+              } ]
+            }, {
+              "name" : "verzija",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 54
+                },
+                "name" : "below zadatak",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "verzija",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "zadatak",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "34px"
+                } ],
+                "highlight" : [ "verzija", "zadatak" ]
+              } ]
+            }, {
+              "name" : "komentar",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 56
+                },
+                "name" : "below verzija",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "komentar",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "verzija",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "34px"
+                } ],
+                "highlight" : [ "komentar", "verzija" ]
+              } ]
+            }, {
+              "name" : "posalji",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 58
+                },
+                "name" : "below komentar",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "posalji",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "komentar",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "16px"
+                } ],
+                "highlight" : [ "posalji", "komentar" ]
+              } ]
+            }, {
+              "name" : "greska",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "below error",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "greska",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "error",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "11px"
+                } ],
+                "highlight" : [ "greska", "error" ]
+              } ]
+            }, {
+              "name" : "dodaj",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 62
+                },
+                "name" : "below greska",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "dodaj",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "greska",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "11px"
+                } ],
+                "highlight" : [ "dodaj", "greska" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Visible section",
+            "place" : {
+              "filePath" : "z3Test2.gspec",
+              "lineNumber" : 64
+            },
+            "objects" : [ {
+              "name" : "zadatak",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 66
+                },
+                "name" : "visible",
+                "highlight" : [ "zadatak" ]
+              } ]
+            }, {
+              "name" : "vjezba",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 68
+                },
+                "name" : "visible",
+                "highlight" : [ "vjezba" ]
+              } ]
+            }, {
+              "name" : "verzija",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 70
+                },
+                "name" : "visible",
+                "highlight" : [ "verzija" ]
+              } ]
+            }, {
+              "name" : "komentar",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 72
+                },
+                "name" : "visible",
+                "highlight" : [ "komentar" ]
+              } ]
+            }, {
+              "name" : "forma1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "visible",
+                "highlight" : [ "forma1" ]
+              } ]
+            }, {
+              "name" : "posalji",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "visible",
+                "highlight" : [ "posalji" ]
+              } ]
+            }, {
+              "name" : "forma2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 78
+                },
+                "name" : "visible",
+                "highlight" : [ "forma2" ]
+              } ]
+            }, {
+              "name" : "error",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 80
+                },
+                "name" : "visible",
+                "highlight" : [ "error" ]
+              } ]
+            }, {
+              "name" : "greska",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 82
+                },
+                "name" : "visible",
+                "highlight" : [ "greska" ]
+              } ]
+            }, {
+              "name" : "dodaj",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Test2.gspec",
+                  "lineNumber" : 84
+                },
+                "name" : "visible",
+                "highlight" : [ "dodaj" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "verzija" : {
+              "area" : [ 8, 237, 772, 42 ]
+            },
+            "greska" : {
+              "area" : [ 12, 579, 14, 14 ]
+            },
+            "zadatak" : {
+              "area" : [ 8, 161, 772, 42 ]
+            },
+            "komentar" : {
+              "area" : [ 8, 313, 772, 42 ]
+            },
+            "dodaj" : {
+              "area" : [ 8, 604, 772, 44 ]
+            },
+            "posalji" : {
+              "area" : [ 8, 371, 772, 44 ]
+            },
+            "vjezba" : {
+              "area" : [ 8, 85, 772, 42 ]
+            },
+            "forma2" : {
+              "area" : [ 8, 500, 772, 156 ]
+            },
+            "forma1" : {
+              "area" : [ 8, 59, 772, 364 ]
+            },
+            "error" : {
+              "area" : [ 8, 526, 772, 42 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1636758178116,
+        "type" : "node"
+      } ],
+      "time" : 1636758169537,
+      "type" : "node"
+    } ]
+  }
+}

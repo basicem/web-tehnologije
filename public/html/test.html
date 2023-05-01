@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Mocha Tests</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+/>
+<link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css" />
+<style>
+td{
+border: 1px solid black;
+height: 20px;
+width: 20px;
+}
+</style>
+</head>
+<body>
+    <div id="ispis"></div>
+    <div id="mocha"></div>
+    <script src="https://unpkg.com/chai/chai.js"></script>
+    <script src="https://unpkg.com/mocha/mocha.js"></script>
+    <script class="mocha-init">
+        mocha.reporter('json');
+        mocha.setup('bdd');
+        mocha.checkLeaks();
+    </script>
+    <script src="tabela.js"></script>
+    <script src="test.js"></script>
+    <script class="mocha-exec">
+    mocha.run();
+    </script>
+    </body>
+</html>

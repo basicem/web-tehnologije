@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/spirala3.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Unos Studenta</title>
+    </head>
+    <body>
+        <h3>Unesite informacije o studentu:</h3>
+        <form action="#">
+            <label for="ime">Ime:</label><br>
+            <input type="text" name="ime" id="ime"></br>
+            <label for="prezime">Prezime:</label><br>
+            <input type="text" name="prezime" id="prezime"></br>
+            <label for="index">Index:</label><br>
+            <input type="number" name="index" id="index"></br>
+            <label for="grupa">Grupa:</label><br>
+            <input type="text" name="grupa" id="grupa"></br>
+
+            <input type="button" id="posaljiPodatke" value="Pošalji podatke">
+        </form>
+
+        <div id="ajaxstatus"></div>
+
+        <script src="../js/unosStudenta.js"></script>
+        <script src="../js/StudentAjax.js"></script>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<title>Zadatak3</title>
+<body>
+    <h3>Komentar</h3>
+    <div id="forma1">
+    <form>
+        <label for="vjezba">Odabir vjezbe:</label>
+        <select id="vjezba" name="vjezba">
+        <option value="prva">Prva</option>
+        <option value="druga">Druga</option>
+        <option value="treca">Treca</option><br>
+        </select>
+
+        <label for="zadatak">Odabir zadatka:</label>
+        <select id="zadatak" name="zadatak">
+        <option value="prvi">Prvi</option>
+        <option value="drugi">Drugi</option>
+        <option value="treci">Treci</option><br>
+        </select>
+
+        <label for="verzija">Odabir verzije:</label>
+        <select id="verzija" name="verzija">
+        <option value="prva">Prva</option>
+        <option value="druga">Druga</option>
+        <option value="treca">Treca</option><br>
+        </select>
+
+        <label for="komentar">Komentar:</label><br>
+        <input type="textarea" id="komentar" name="komentar"><br>
+
+        <input type="submit" id="posalji" value="Pošalji">
+      </form> 
+    </div>
+    <br>
+    <h3>Greške</h3>
+    <div id="forma2">
+        <form>
+            <label for="error">Errors log:</label><br>
+            <input type="textarea" id="error" name="error"><br>
+
+            <input type="checkbox" id="greska" name="greska" value="Bez gresaka">
+            <label for="greska"> Bez gresaka</label><br>
+
+            <input type="submit" id="dodaj" value="Dodaj rezultate testa">
+        </form> 
+    </div>
+
+
+</body>

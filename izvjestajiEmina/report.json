@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "z3Test2.gspec",
+    "startedAt" : 1636758169528,
+    "endedAt" : 1636758184238,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 30,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 30
+    },
+    "testId" : "1-z3test2.gspec",
+    "duration" : 14710,
+    "failed" : false
+  } ]
+}

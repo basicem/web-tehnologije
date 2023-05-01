@@ -1,0 +1,85 @@
+@objects
+    body body
+    vjezba #vjezba
+    zadatak #zadatak
+    verzija #verzija
+    komentar #komentar
+    posalji #posalji
+    forma1 #forma1
+    forma2 #forma2
+    error #error
+    greska #greska
+    dodaj #dodaj
+
+= Width section =
+
+= Height section =
+
+= Inside section =
+    vjezba:
+        inside forma1
+    zadatak:
+        inside forma1
+    verzija:
+        inside forma1
+    komentar:
+        inside forma1
+    posalji:
+        inside forma1
+    error:
+        inside forma2
+    greska:
+        inside forma2
+    dodaj:
+        inside forma2
+
+= Above section =
+	vjezba:
+		above zadatak
+	zadatak:
+		above verzija
+	verzija:
+		above komentar
+    komentar:
+        above posalji
+    error:
+        above greska
+    greska:
+        above dodaj
+
+= Below section =
+	zadatak:
+		below vjezba
+	verzija:
+		below zadatak
+	komentar:
+		below verzija
+    posalji:
+        below komentar
+    greska:
+        below error
+    dodaj:
+        below greska
+
+= Visible section =
+	zadatak:
+		visible
+	vjezba:
+		visible
+	verzija:
+		visible
+	komentar:
+		visible
+	forma1:
+		visible
+    posalji:
+        visible
+    forma2:
+        visible
+    error:
+        visible
+    greska:
+        visible
+    dodaj:
+        visible
+    
